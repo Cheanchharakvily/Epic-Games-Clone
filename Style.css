@@ -1,0 +1,184 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+body{
+    background-color: rgb(18, 18, 18) ;
+    color: white ;
+}
+a{
+    color:white ;
+}
+.nav-container{
+    background-color: #18181c;
+    height: 72px;
+    display: flex;
+    position: relative;
+}
+.logo{
+    height: 32px;
+    width: 32px;
+    border-right: solid 2px grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 40px 0 20px;
+    display: flex;
+    gap: 20px;
+}
+.logo img{
+    cursor: pointer;
+    max-width: 100%;
+    max-height: 100%;
+}
+.dropdown{
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: -6px;
+}
+.links{
+    padding: 25px;
+}
+
+.links #Store img{
+    height: 19px;
+    width: 56px;
+    margin-right: 18px;
+}
+.links #Other{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #aaaaae;
+    padding: 8px 13px 8px 13px;
+}
+.links #Other:hover{
+    background-color: #3a3a3d;
+    border-radius: 7px;
+}
+
+.download{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.download button{
+    cursor: pointer;
+    background-color: #26bbff;
+    border-radius: 0.5rem;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    border: #26bbff 1px solid;
+    padding: 7px 10px;
+    font-weight: 500;
+}
+
+.profile{
+    position: absolute;
+    right: 130px;
+    top: 20px;
+}
+.profile img{
+    cursor: pointer;
+    height: 35px;
+    width: 38px;
+}
+.language{
+    position: absolute;
+    right: 180px;
+    top: 25px;
+}
+.language img{
+    cursor: pointer;
+    height: 21px;
+    width: 22px;
+}
+.wrapper{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.navigation{
+    display: flex;
+    padding: 30px;
+}
+.tabs-links a{
+    margin: 15px;
+}
+.tabs-links{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px;
+    color: #f5f5f5;
+}
+.search-bars{
+    width: 220px;
+    background-color: #202020;
+    border-radius: 20px;
+    height: 40px;
+    position: relative;
+}
+.search-bars input{
+    padding: 12px;
+    border-radius: 20px;
+    background-color: transparent;
+    position: absolute;
+    left: 37px;
+    border: none;
+    outline: none;
+    width: 158px;
+    font-size: 14px;
+    color: white;
+}
+.search-bars i{
+    padding: 20px;
+    color: #f5f5f599;
+}
+input::placeholder {
+    color: #f5f5f599;
+}
+.Carousel{
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.Carousel-container{
+    height: 528px;
+    width: 940px;
+    padding: 0 15px 30px 30px;
+    position: relative;
+    overflow: hidden;
+}
+.Carousel-slider{
+    flex: 0 0 100%;
+}
+.active {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+.Carousel-slider img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.Carousel-tabs .tabs{
+    height: 55px;
+    width: 170px;
+    padding: 17px;
+    display: flex;
+}
+.Carousel-tabs .tabs h1{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    padding: 15px;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.Carousel-tabs img{
+    height: 53px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 10px;
+}
